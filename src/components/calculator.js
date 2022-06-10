@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './Button';
+import Button from './Button.js';
 import calculate from '../logic/calculate';
 import DisplayResult from './Display';
 
