@@ -1,47 +1,39 @@
 import React from 'react';
+import Button from './Button';
+import calculate from '../logic/calculate';
+import DisplayResult from './Display';
 
 class Calculator extends React.PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      obj: {
+        total: null,
+        next: null,
+        operation: null,
+      },
+    };
+    this.handleButtonClick = this.handleButtonClick.bind(this);
+  }
+
+  handleButtonClick(e) {
+    const buttonName = e.target.value;
+    const { obj } = this.state;
+    this.setState({
+      obj: calculate(obj, buttonName),
+    });
+  }
+
   render() {
+    const { obj } = this.state;
+
     return (
       <div className="calcMainContainer">
-        <div className="calcDisplay">0</div>
-        <div className="calcKeysContainer">
-          <div className="calcKeys">
-            <div className="calcNumbers">
-              <button type="button">AC</button>
-              <button type="button">+/-</button>
-              <button type="button">%</button>
-            </div>
-            <div className="calcNumbers">
-              <button type="button">7</button>
-              <button type="button">8</button>
-              <button type="button">9</button>
-            </div>
-            <div className="calcNumbers">
-              <button type="button">4</button>
-              <button type="button">5</button>
-              <button type="button">6</button>
-            </div>
-            <div className="calcNumbers">
-              <button type="button">1</button>
-              <button type="button">2</button>
-              <button type="button">3</button>
-            </div>
-            <div className="calcNumbers footer">
-              <button type="button">0</button>
-              <button type="button">.</button>
-            </div>
-          </div>
-          <div className="calcSymbols">
-            <button type="button" className="calcSymbolsColor">÷</button>
-            <button type="button" className="calcSymbolsColor">×</button>
-            <button type="button" className="calcSymbolsColor">-</button>
-            <button type="button" className="calcSymbolsColor">+</button>
-            <button type="button" className="calcSymbolsColor">=</button>
-          </div>
-        </div>
+        <DisplayResult displayState={obj} />
+        <Button onButtonClick={this.handleButtonClick} />
       </div>
     );
   }
 }
+
 export default Calculator;
