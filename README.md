@@ -1,56 +1,42 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Math Magicians
 
-# Project Name
-
-> Description the project.
-
+This project is going to have a functional calculator built with React. The user will be able to do simple calculations.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML
+- CSS
+- React
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- browser (Google Chrome, Firefox)
+- text editor (VSCode)
+- terminal
+
 ### Setup
 
-### Install
+```
+git clone https://github.com/Stanleeeeee/Math-Magician.git
+```
 
-### Usage
+### Run the app
 
-### Run tests
-
-### Deployment
-
-
+```
+npm start
+```
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Stanleeeeee](https://github.com/Stanleeeeee)
+- Twitter: [@Stanleeeeee](https://twitter.com/Stanleeeeee)
+- LinkedIn: [staanley-ezeoke](https://linkedin.com/in/staanley-ezeoke)
 
 ## 🤝 Contributing
 
@@ -61,12 +47,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
