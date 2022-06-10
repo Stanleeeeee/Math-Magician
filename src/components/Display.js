@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class DisplayResult extends React.PureComponent {
-  render() {
-    const { displayState } = this.props;
+function DisplayResult(props) {
+  const { displayState } = props;
 
-    return (
-      <div className="calcDisplay">
-        {displayState.next || displayState.operation || displayState.total || 0}
-      </div>
-    );
-  }
+  return (
+    <div className="calcDisplay">
+      {displayState.next || displayState.operation || displayState.total || 0}
+    </div>
+  );
 }
 
 DisplayResult.propTypes = {
