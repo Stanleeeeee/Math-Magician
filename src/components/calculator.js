@@ -1,8 +1,10 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import Button from '../components/Button.js';
 import calculate from '../logic/calculate';
 import DisplayResult from './Display';
 
+/* eslint-enable */
 function Calculator() {
   const [state, setState] = useState({
     obj: {
