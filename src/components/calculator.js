@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from './Button';
+import Button from '../components/Button'
 import calculate from '../logic/calculate';
 import DisplayResult from './Display';
 
