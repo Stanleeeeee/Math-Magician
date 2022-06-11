@@ -1,8 +1,10 @@
+/* eslint-disable */
 import React from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
 import DisplayResult from './Display';
 
+/* eslint-enable */
 class Calculator extends React.PureComponent {
   constructor(props) {
     super(props);
