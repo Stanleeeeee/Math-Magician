@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { useState } from 'react';
-import Button from './Button';
+import Button from './button';
 import calculate from '../logic/calculate';
 import DisplayResult from './Display';
 
