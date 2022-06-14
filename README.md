@@ -1,6 +1,6 @@
 # Math Magicians
 
-This project is going to have a functional calculator built with React. The user will be able to do simple calculations.
+This project is going to have a functional calculator built with React.  consisting of several pages. The user will be able move to each pages and also do simple calculations.
 
 ## Built With
 
