@@ -2,9 +2,9 @@ import React from 'react';
 
 function Home() {
   return (
-      <div className="homePage">
-          <h2 className="homeText">Welcome to our page!</h2>
-          <p className="homeText">
+    <div className="homePage">
+        <h2 className="homeText">Welcome to our page!</h2>
+        <p className="homeText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
             felis libero, ut molestie erat cursus sit amet. Nam ac mauris pulvinar,
             consectetur lectus vitae, ultrices justo. Donec ultricies arcu in nunc
@@ -15,8 +15,8 @@ function Home() {
             velit eget quam molestie, pharetra molestie dolor pulvinar. Ut commodo,
             sem at tristique facilisis, nisl elit tincidunt ligula, sed molestie
             diam tellus fringilla est.
-          </p>
-        </div>
+        </p>
+    </div>
   );
 }
-    export default Home;
+export default Home;
