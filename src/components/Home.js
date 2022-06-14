@@ -1,8 +1,8 @@
 import React from 'react';
 
 function Home() {
-    return (
-        <div className="homePage">
+  return (
+      <div className="homePage">
           <h2 className="homeText">Welcome to our page!</h2>
           <p className="homeText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan
@@ -17,6 +17,6 @@ function Home() {
             diam tellus fringilla est.
           </p>
         </div>
-      );
-    }
+  );
+}
     export default Home;
