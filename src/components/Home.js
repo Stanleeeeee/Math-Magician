@@ -15,7 +15,7 @@ function Home() {
             velit eget quam molestie, pharetra molestie dolor pulvinar. Ut commodo,
             sem at tristique facilisis, nisl elit tincidunt ligula, sed molestie
             diam tellus fringilla est.
-        </p>
+      </p>
     </div>
   );
 }
