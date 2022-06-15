@@ -12,9 +12,6 @@ body {
 .App {
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 button {
@@ -25,8 +22,13 @@ button {
 
 .calcMainContainer {
   width: 600px;
+  margin-top: 180px;
   height: auto;
-  background-color: #f5f5f5;
+  padding: 50px 0 0 450px;
+}
+
+.calcText {
+  margin-left: -350px;
 }
 
 .calcDisplay {
@@ -67,4 +69,28 @@ button {
 
 .calcSymbolsColor {
   background-color: #f5913e;
+}
+
+.quoteHeader,
+.homePage {
+  margin-top: 100px;
+}
+
+.homeText {
+  padding: 40px 20px 0 20px;
+}
+
+.navClass {
+  display: grid;
+  grid-template-columns: 80% 0.2fr 0.3fr 0.4fr;
+  padding: 10px 0 0 10px;
+}
+
+.try {
+  border-right: 1.5px solid black;
+  padding-left: 5px;
+}
+
+.borderRemove {
+  border: none;
 }
