@@ -4,6 +4,7 @@ import { MemoryRouter } from 'react-router';
 import Navbar from '../components/Navbar';
 
 it('renders correctly', () => {
-  const tree = renderer.create(<MemoryRouter><Navbar /></MemoryRouter>).toJSON();
+  const tree = renderer
+  .create(<MemoryRouter><Navbar /></MemoryRouter>).toJSON();
   expect(tree).toMatchSnapshot();
 });
