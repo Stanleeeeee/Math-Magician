@@ -9,7 +9,7 @@ This project is going to have a functional calculator built with React.  consist
 - React
 
 ## Live Demo
-- [Heroku Live Demo Link](https://math-magical.herokuapp.com/))
+
 - [Netlify Live Demo Link](https://silver-queijadas-541756.netlify.app/))
 
 ## Getting Started
