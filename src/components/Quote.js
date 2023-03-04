@@ -22,6 +22,6 @@ function Quote() {
       </button>
     </div>
   );
-};
+}
 
 export default Quote;

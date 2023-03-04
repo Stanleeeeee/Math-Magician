@@ -4,23 +4,23 @@ import './styles/Nav.css';
 
 function Navbar() {
   return (
-    <nav className='navBar'>
-      <h1 className='title'>Math Magicians</h1>
-      <ul className='linksContainer'>
-        <li className='linkItems'>
-          <Link to='/' className='links'>
+    <nav className="navBar">
+      <h1 className="title">Math Magicians</h1>
+      <ul className="linksContainer">
+        <li className="linkItems">
+          <Link to="/" className="links">
             Home
           </Link>
         </li>
-        <div className='separateDiv' />
-        <li className='linkItems'>
-          <Link to='/calculator' className='links'>
+        <div className="separateDiv" />
+        <li className="linkItems">
+          <Link to="/calculator" className="links">
             Calculator
           </Link>
         </li>
-        <div className='separateDiv' />
-        <li className='linkItems'>
-          <Link to='/quote' className='links'>
+        <div className="separateDiv" />
+        <li className="linkItems">
+          <Link to="/quote" className="links">
             Quote
           </Link>
         </li>
